@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Source+Code+Pro&display=swap');
+body{
+    background-color: #0a192f;
+}
+.nav-link:hover{
+    color:beige !important;
+}
+.p1{
+    color:#64ffda;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 10%;
+}
+.head1{
+    font-size: clamp(40px, 8vw, 80px);
+    margin-left: 10%;
+    color: rgb(165, 142, 142);
+}
+.head2{
+    font-size: clamp(40px, 8vw, 80px);
+    margin-left: 10%;
+    color: rgb(167, 135, 135);
+}
+.p2{
+    margin-left: 10%;
+    color: #a8b2d1;
+}
+.btn2{
+    margin-left:13%;
+    border: 2px solid #64ffda;
+    display:inline;
+    padding: 15px;
+    border-radius:8px;
+    color: #64ffda;
+}
+.btn2:hover{
+    color: #a9dcd0 !important;
+    border: 2px solid #a9dcd0 !important;
+    margin-left:13% !important;
+    display:inline !important;
+    padding: 15px !important;
+    border-radius:8px !important;
+}
+.head3{
+    margin-left:10%;
+    font-family: 'Lobster', cursive;
+    color:#a8b2d1
+}
+.s1{
+    color:#64ffda;
+}
+.p3{
+    color:#a8b2d1;
+    margin-left:10%;
+    font-size: 20px;
+}
+.pre{
+    color: #a8b2d1;
+    font-size:15px;
+    margin-left:10%
+}
+.pretext{
+    color:#64ffda
+}
+.img{
+    margin-right: auto;
+}
+.btn3{
+    border: 2px solid #64ffda;
+    display:inline;
+    border-radius:8px;
+    color: #64ffda;
+}
+.btn3:hover{
+    color: #a9dcd0 !important;
+    border: 2px solid #a9dcd0 !important;
+    display:inline !important;
+    border-radius:8px !important;
+}
