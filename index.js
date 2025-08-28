@@ -13,15 +13,15 @@ app.get('/', function (req, res) {
 })
 app.post('/', (req, res) => {
   var transporter = nodemailer.createTransport({
-    host: 'smtp-mail.outlook.com',
+    host: 'smtp.gmail.com',
     port: 587,
     auth: {
-      user: 'codingdaman2006@outlook.com',
-      pass: 'daman19791983'
+      user: 'programmingdaman2006@gmail.com',
+      pass: 'rdhd aqcz uxje hsha'
     }
   });
   var mailOptions = {
-    from: 'codingdaman2006@outlook.com',
+    from: 'programmingdaman2006@gmail.com',
     to: 'damanpreetsingh1979@gmail.com',  
     subject: `New Feedback received`,
     text: `Answers: ${req.body.name}; ${req.body.email}; ${req.body.feedback}`
