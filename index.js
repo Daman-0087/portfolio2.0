@@ -13,11 +13,11 @@ app.get('/', function (req, res) {
 })
 app.post('/', (req, res) => {
   var transporter = nodemailer.createTransport({
-    host: 'smtp.gmail.com',
+    host: process.env.SMTP_HOST || 'smtp.gmail.com',
     port: 587,
     auth: {
-      user: 'programmingdaman2006@gmail.com',
-      pass: 'rdhd aqcz uxje hsha'
+      user: process.env.SMTP_USER || 'programmingdaman2006@gmail.com',
+      pass: process.env.SMTP_PASS || 'rdhd aqcz uxje hsha'
     }
   });
   var mailOptions = {
